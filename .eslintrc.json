@@ -1,4 +1,9 @@
 {
+    "settings": {
+        "import/resolver": {
+            "typescript": {}
+        }
+    },
     "env": {
         "browser": true,
         "es2021": true,
@@ -25,6 +30,11 @@
         "jest.config.ts"
     ],
     "rules": {
+        "import/extensions": "off",
+        "no-unused-vars": "off",
+        "no-use-before-define": "off",
+        "@typescript-eslint/no-use-before-define": ["error"],
+        "@typescript-eslint/no-unused-vars": ["error"],
         "@typescript-eslint/consistent-type-definitions": "off",
         "@typescript-eslint/strict-boolean-expressions": "off"
     }
