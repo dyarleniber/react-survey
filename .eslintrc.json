@@ -1,5 +1,8 @@
 {
     "settings": {
+        "react": {
+            "version": "detect"
+        },
         "import/resolver": {
             "typescript": {}
         }
@@ -46,6 +49,8 @@
         "@typescript-eslint/no-useless-constructor": ["error"],
         "@typescript-eslint/no-empty-function": ["error"],
         "@typescript-eslint/consistent-type-definitions": "off",
-        "@typescript-eslint/strict-boolean-expressions": "off"
+        "@typescript-eslint/strict-boolean-expressions": "off",
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error"
     }
 }
