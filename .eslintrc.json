@@ -31,10 +31,20 @@
     ],
     "rules": {
         "import/extensions": "off",
+        "import/prefer-default-export": "off",
+        "no-redeclare": "off",
         "no-unused-vars": "off",
         "no-use-before-define": "off",
+        "no-shadow": "off",
+        "no-useless-constructor": "off",
+        "no-empty-function": "off",
+        "max-classes-per-file": "off",
+        "class-methods-use-this": "off",
+        "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
         "@typescript-eslint/no-use-before-define": ["error"],
-        "@typescript-eslint/no-unused-vars": ["error"],
+        "@typescript-eslint/no-shadow": ["error"],
+        "@typescript-eslint/no-useless-constructor": ["error"],
+        "@typescript-eslint/no-empty-function": ["error"],
         "@typescript-eslint/consistent-type-definitions": "off",
         "@typescript-eslint/strict-boolean-expressions": "off"
     }
