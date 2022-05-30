@@ -51,6 +51,14 @@
         "@typescript-eslint/consistent-type-definitions": "off",
         "@typescript-eslint/strict-boolean-expressions": "off",
         "react/jsx-uses-react": "error",
-        "react/jsx-uses-vars": "error"
+        "react/jsx-uses-vars": "error",
+        "react/function-component-definition": "off",
+        "react/require-default-props": "off",
+        "react/jsx-props-no-spreading": "off",
+        "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
+        "jsx-a11y/label-has-associated-control": "off",
+        "jsx-a11y/no-noninteractive-element-interactions": "off",
+        "jsx-a11y/click-events-have-key-events": "off",
+        "jsx-a11y/anchor-is-valid": "off"
     }
 }
